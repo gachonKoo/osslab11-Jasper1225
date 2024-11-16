@@ -1,9 +1,13 @@
 import math
-
-def pythagoras(a,b):
-    c = math.sqrt(a**2 + b**2)
-    return c
-def circle(r):
-    area = math.pi*r**2
+def pythagoras(base, height):
+    
+    hypo = math.sqrt(base**2 + height**2)
+    
+    return hypo
+    
+def circle(radius):
+    
+    area = math.pi*radius**2
+    
     return area
 
